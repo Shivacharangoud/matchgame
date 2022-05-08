@@ -1,0 +1,9 @@
+.thumb-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.image-button {
+  border-width: 0px;
+  background-color: transparent;
+}

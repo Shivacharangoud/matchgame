@@ -1,0 +1,136 @@
+.navbar {
+  background-color: blue;
+  padding: 15px;
+}
+.unorder-list-extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: 40px;
+}
+.score-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.score-timer-con {
+  display: flex;
+  flex-direction: row;
+}
+.timer-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.main-container {
+  padding: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.big-image {
+  width: 80%;
+}
+.tabs-un-order-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.tab-list-item {
+  margin-right: 4px;
+}
+.un-order-thumbs-list {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.thumb-list-item {
+  margin: 4px;
+}
+
+.game-over-con {
+  background-color: #cf60c8;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  overflow: auto;
+}
+.trophy {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.score-heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 26px;
+}
+.score-paraa {
+  color: #ffffff;
+}
+.play-again-button {
+  background-color: goldenrod;
+  border-radius: 10px;
+  padding: 10px;
+  border-width: 0px;
+  color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.replay {
+  margin-right: 4px;
+}
+.seconds-paraa {
+  color: #fec653;
+  font-weight: 600;
+}
+.score-text {
+  color: #ffffff;
+  font-weight: 600;
+}
+.score-num {
+  color: #fec653;
+  font-weight: 600;
+}
+.unorder-list-extra {
+  list-style: none;
+}
